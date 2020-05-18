@@ -28,6 +28,12 @@ options:
      - If not specified, Consul will generate an UUID when creating a token.
     type: str
     required: false
+  secret_id:
+    description:
+     - The secret ID of the token.
+     - If not specified, Consul will generate an UUID when creating a token.
+    type: str
+    required: false
   description:
     description:
       - Free form human readable description of the token.
